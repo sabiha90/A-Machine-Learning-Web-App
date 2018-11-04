@@ -1,7 +1,5 @@
 from flask import Flask, render_template, request
-import logging
 import os
-from werkzeug.utils import secure_filename
 import pandas as pd
 import numpy as np
 app = Flask(__name__, static_folder="../static/dist",
